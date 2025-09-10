@@ -1,0 +1,42 @@
+/* Estilo general del body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Botón */
+button {
+  font-size: 22px;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+/* Tarjeta de Bootstrap personalizada */
+.card {
+  width: 400px; /* Ancho más grande */
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 0 auto; /* Centrado horizontal */
+}
+
+/* Imagen de la tarjeta */
+.card img {
+  width: 100%;        /* Ancho de la tarjeta */
+  height: 300px;      /* Altura más grande */
+  object-fit: cover;  /* Mantiene proporción y recorta si es necesario */
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+/* Texto de la tarjeta */
+.card .card-text {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Título de la tarjeta */
+.card .card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
