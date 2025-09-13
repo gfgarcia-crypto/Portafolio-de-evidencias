@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="auto"> 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Este desarrollo es de mi empresa">
+  <meta name="author" content="Yuritsa Paez">
+  <title>H O M V I E</title>
+
+  <!-- Bootstrap CSS desde CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Mi hoja de estilos personalizada -->
+  <link href="styles.css" rel="stylesheet">
+
+  <meta name="theme-color" content="#712cf9">
+</head>
+
+<body> 
+
+  <!-- Barra de navegación -->
+  <header data-bs-theme="dark">
+    <nav class="navbar navbar-expand-md fixed-top mi-navbar">
+     <!--<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">-->
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">H O M V I E</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>
+
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Contenido principal -->
+  <main>
+
+    <!-- Carousel -->
+    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+      <!-- Indicadores -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+
+      <!-- Slides -->
+
+      <!-- Primer imagen de slides -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/278980fffae0daa9508d019d83e0850a.jpg" alt="Primera imagen" width="100%">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice">
+            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+          </svg>
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>H O M V I E</h1>
+              <p class="opacity-75">H O M V I E te brinda una experiencia única de tener cine en tu casa.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Comenzar ahora</a></p>
+            </div>
+          </div>
+        </div>
+
+  <!-- Segunda imagen de slides -->
+        <div class="carousel-item">
+          <img src="img/513ff0171dcb40dcb4da11e3e45d0470.jpg" alt="Primera imagen" width="100%">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice">
+            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+          </svg>
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Nuestras experiencias.</h1>
+              <p>Contamos con experiencias únicas y personalizadas.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Descubre más</a></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tercera  imagen de slides -->
+        <div class="carousel-item">
+          <img src="img/6af287c4a22386c8a68cbd8654c5a474.jpg" alt="Primera imagen" width="100%">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice">
+            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+          </svg>
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>Una experiencia más.</h1>
+              <p>Contenido de ejemplo para la tercera diapositiva del carrusel.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Explorar galería</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Controles -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+
+    <!-- Marketing -->
+    <div class="container marketing my-5">
+      <div class="row text-center">
+        <div class="col-lg-4">
+          <img src="IMG/aretes1.jpg" class="bd-placeholder-img rounded-circle mb-3" alt="Imagen 1"width="250px" height="250px">
+          <h2 class="fw-normal">Aretes</h2>
+          <p>Colección Otoño-Invierno.</p>
+          <p><a class="btn btn-secondary" href="#">Ver más &raquo;</a></p>
+        </div>
+
+        <div class="col-lg-4">
+          <img src="IMG/ aretes2.jpg" class="bd-placeholder-img rounded-circle mb-3" alt="Imagen 2"width="250px" height="250px">
+          <h2 class="fw-normal">Aretes</h2>
+          <p>Colección Primavera-Verano.</p>
+          <p><a class="btn btn-secondary" href="#">Ver más &raquo;</a></p>
+        </div>
+
+        <div class="col-lg-4">
+          <img src="IMG/aretes3.jpg" class="bd-placeholder-img rounded-circle mb-3" alt="Imagen 3" width="250px" height="250px">
+           <h2 class="fw-normal"> Aretes</h2>
+
+          <p>Edición limitada.</p>
+
+          <p><a class="btn btn-secondary" href="#">Ver más &raquo;</a></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Featurettes -->
+    <div class="container my-5">
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">Experiencia Premium <span class="text-body-secondary">a tu alcance.</span></h2>
+          <p class="lead">Disfruta de sonido envolvente y calidad de imagen insuperable.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="img/aretes7.jpg" class="img-fluid mx-auto" alt="Feature 1">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1">Variedad sin límites <span class="text-body-secondary">para todos los gustos.</span></h2>
+          <p class="lead">Desde clásicos hasta estrenos, todo en un solo lugar.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img src="img/aretes6.jpg" class="img-fluid mx-auto" alt="Feature 2">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">Siempre contigo <span class="text-body-secondary">en cualquier dispositivo.</span></h2>
+          <p class="lead">Accede desde tu televisor, laptop o smartphone fácilmente.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="img/aretes5.jpg" class="img-fluid mx-auto" alt="Feature 3">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+    </div>
+
+    <!-- Footer -->
+    <footer class="container text-center py-4">
+      <p class="float-end"><a href="#">Volver arriba</a></p>
+      <p>&copy; 2025 H O M V I E &middot; <a href="#">Privacidad</a> &middot; <a href="#">Términos</a></p>
+    </footer>
+  </main>
+
+  <!-- Bootstrap JS desde CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
