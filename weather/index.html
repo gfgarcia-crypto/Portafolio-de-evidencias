@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Viajero</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="map"></div>
+
+    <div class="travel-timeline">
+        <div class="timeline-header">
+            <h3>Pronóstico de tu Viaje</h3>
+            <span id="current-location">Selecciona un lugar en el mapa para conocer el </span>
+        </div>
+        <div class="timeline-content">
+            </div>
+    </div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=TU_API_KEY_DE_GOOGLE_MAPS&libraries=places,geometry&callback=initMap" async defer></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
